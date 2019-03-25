@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "properties": {
+        "timestamp": {
+            "type": "string"
+        },
+        "current": {
+            "type": "number"
+        }
+    },
+    "required": ["timestamp", "current"]
+}
