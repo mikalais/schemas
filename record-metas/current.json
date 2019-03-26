@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "unit": {
+            "type": "string"
+        },
+        "prefix": {
+            "type": "string",
+             "enum": ["nano", "milli", "kilo"]
+        },
+        "type": {
+            "type": "string",
+             "enum": ["AC", "DC"]
+        },
+        "frequency": {
+            "type": "number"
+        }
+    },
+    "required": ["unit", "prefix", "type"]
+}
